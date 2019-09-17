@@ -1,5 +1,6 @@
 export default function reducer (state = {
-  data: {}
+  data: {},
+  roster: []
 }, action) {
   switch(action.type) {
     case "FETCH_ROSTER": {
@@ -20,7 +21,8 @@ export default function reducer (state = {
         ...state,
         fetching: false,
         fetched: true,
-        data: action.payload.data
+        data: action.payload.data,
+        roster: action.payload.roster
       }
     }
     default: return state;

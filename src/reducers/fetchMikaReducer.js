@@ -1,5 +1,6 @@
 export default function reducer (state = {
-  data: {}
+  data: {},
+  mika: []
 }, action) {
   switch(action.type) {
     case "FETCH_MIKA": {
@@ -20,7 +21,8 @@ export default function reducer (state = {
         ...state,
         fetching: false,
         fetched: true,
-        data: action.payload.data
+        data: action.payload.data,
+        mika: action.payload.people
       }
     }
     default: return state;
