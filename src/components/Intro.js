@@ -15,7 +15,7 @@ const Intro = () => {
     <Container>
       <Row>
         <Col xs={12} md={{span: 8, offset: 2}}>
-          <p className="text-center">A couple example API calls to the NHL API and examples of the data returned. This site is a companion to my Hackernoon article, <span><a href="#">Retrieving Player Stats from the NHL's undocumented REST API.</a></span></p>
+          <p className="text-center">A couple example API calls to the NHL API and examples of the data returned. This site is a companion to my Hackernoon article, <span><a href="https://hackernoon.com/retrieving-hockey-stats-from-the-nhls-undocumented-api-zz3003wrw">Retrieving Player Stats from the NHL's undocumented REST API.</a></span></p>
         </Col>
       </Row>
     </Container>
