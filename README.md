@@ -1,3 +1,13 @@
+# Accessing the NHL's undocument REST API
+
+![alt text](https://github.com/Nicknyr/Hackernoon_NHL/blob/master/src/assets/slapshot.png)
+
+#### This repo is the companion to my Hackernoon.com article that talks about making API calls to the NHL API and retrieving hockey stats
+
+The [article can be seen here](https://hackernoon.com/retrieving-hockey-stats-from-the-nhls-undocumented-api-zz3003wrw "Hackernoon Article"). I have also made a [basic web app that shows example API calls](https://nhl-api.surge.sh/ "Companion app showing examples") and the data returned.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
