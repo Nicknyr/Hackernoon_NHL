@@ -8,6 +8,8 @@ import { createStore, applyMiddleware, compose } from 'redux';
 import thunk from "redux-thunk";
 import logger from 'redux-logger';
 import reducers from './reducers';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
